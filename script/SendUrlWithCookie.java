@@ -1,9 +1,11 @@
-import java.io.BufferedReader;
+﻿import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.io.OutputStream;
-
+/**
+ * 相当于触发某个url(加入购物车,抢优惠卷...).
+ */
 public class SendUrlWithCookie {
 	//红米5
 	//private static String url = "https://cart.jd.com/gate.action?pid=5911944&pcount=1&ptype=1";
@@ -41,7 +43,7 @@ public class SendUrlWithCookie {
 			conn.setRequestProperty("Cookie", "3AB9D23F7A4B3C9B=XZSSWP2Q3RX2R3TI7LSWZPFRA2TTGEAR722LFGFUBN4HEXTW7VNGZXMWZJRSRLTJJANSNXLSSA26TPA5HUCXOUBHUY");
 			conn.addRequestProperty("Cookie", "Hm_lpvt_f16aaeb7ee42409d8dbeb6bf131c5f2a=1512743276");
 			conn.addRequestProperty("Cookie", "Hm_lvt_f16aaeb7ee42409d8dbeb6bf131c5f2a=1512707344,1512712994,1512743276");
-			conn.addRequestProperty("Cookie", "JSESSIONID=913AC799C6FBEA3FA417CC1F164A068C.s1");
+			conn.addRequestProperty("Cookie", "JSESSIONID=1995.s1");
 			conn.addRequestProperty("Cookie", "__jda=122270672.365496518.1506901025.1512740467.1512742747.8");
 			conn.addRequestProperty("Cookie", "__jdb=122270672.9.365496518|8.1512742747");
 			conn.addRequestProperty("Cookie", "__jdc=122270672");
